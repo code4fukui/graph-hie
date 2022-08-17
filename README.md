@@ -18,6 +18,7 @@
 ## demo
 
 - [graph-hie tag test page](https://code4fukui.github.io/graph-hie/)
+- [simple](https://code4fukui.github.io/graph-hie/simple.html)
 
 ## dependency
 
