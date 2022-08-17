@@ -1,6 +1,6 @@
 # graph-hie
  
-```
+```html
 <script type="module" src="https://code4fukui.github.io/graph-hie/graph-hie.js"></script>
 
 <graph-hie>
@@ -14,3 +14,11 @@
     メーカー: https://canon.jp/
 </graph-hie>
 ```
+
+## demo
+
+- [graph-hie tag test page](https://code4fukui.github.io/graph-hie/)
+
+## dependency
+
+- [mermaid](https://mermaid-js.github.io/mermaid/#/)
