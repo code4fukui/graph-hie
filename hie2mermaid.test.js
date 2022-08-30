@@ -32,8 +32,8 @@ Deno.test("level3", () => {
   const s = 
 `a
   b
-   abc
-   def
+    abc
+    def
   c
 `;
   t.assertEquals(hie2mermaid(s), `flowchart TD
@@ -47,8 +47,8 @@ Deno.test("level3 with mean", () => {
   const s = 
 `a
   parent: b
-   x: abc
-   y: def
+    x: abc
+    y: def
   c
 `;
   t.assertEquals(hie2mermaid(s), `flowchart TD
@@ -69,5 +69,20 @@ a --> https://fukuno.jig.jp/
 click https://fukuno.jig.jp/ "https://fukuno.jig.jp/"
 a --> |twitter| https://twitter.com/taisukef
 click https://twitter.com/taisukef "https://twitter.com/taisukef"
+`)
+});
+Deno.test("simple", () => {
+  const s = 
+`a
+  b
+    c
+      d
+  B
+`;
+  t.assertEquals(hie2mermaid(s), `flowchart TD
+a --> b
+b --> c
+c --> d
+a --> B
 `)
 });

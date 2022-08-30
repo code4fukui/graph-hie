@@ -44,8 +44,9 @@ export const hie2mermaid = (hie) => {
       cur.pop();
     } else if (curindent < indent) {
     } else {
-      cur.pop();
-      cur.pop();
+      for (let i = 0; i <= curindent - indent; i++) {
+        cur.pop();
+      }
     }
     cur.push(s);
     if (cur.length > 1) {
