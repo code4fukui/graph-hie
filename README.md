@@ -14,6 +14,7 @@
     メーカー: https://canon.jp/
 </graph-hie>
 ```
+- 階層は空白2文字のインデントで表現する
 
 ## demo
 
