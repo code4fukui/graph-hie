@@ -1,5 +1,7 @@
 # graph-hie
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 A web component that generates a graph hierarchy visualization using the Mermaid.js library.
 
 ## Demo
