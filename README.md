@@ -5,22 +5,18 @@
 A web component that generates a graph hierarchy visualization using the Mermaid.js library.
 
 ## Demo
-
 - [graph-hie tag test page](https://code4fukui.github.io/graph-hie/)
 - [simple](https://code4fukui.github.io/graph-hie/simple.html)
 
 ## Features
-
 - Hierarchical data visualization using a custom `<graph-hie>` HTML element
 - Converts hierarchical data in a specific format to Mermaid.js flowchart syntax
 - Supports links and other annotations in the hierarchy
 
 ## Requirements
-
 - [Mermaid.js](https://mermaid-js.github.io/mermaid/#/) library
 
 ## Usage
-
 Include the `graph-hie.js` script and use the `<graph-hie>` element with your hierarchical data:
 
 ```html
@@ -41,5 +37,4 @@ Include the `graph-hie.js` script and use the `<graph-hie>` element with your hi
 The hierarchy is expressed using 2-space indentation.
 
 ## License
-
-MIT License
+MIT License — see [LICENSE](LICENSE).
